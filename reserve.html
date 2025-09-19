@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="spaceBetween">
+       <div class="topBar">
+            <img class="icon left" src="icons8-place-64.png" alt="placeMarker"><p>Calle Guatemala 46699, Palermo Viejo
+            C1425 Buenos Aire ARGENTINA</p>
+        </div>
+        <div class="contacts">
+            <img class="icon left" src="icons8-telephone-24.png" alt="phone">
+            <p class="left">(5411) 4831-9564</p>
+            <img class="icon left" src="icons8-email-24.png" alt="email">
+            <p class="left">info@parrilladonjulio.com.ar</p>
+        </div>
+    </div>
+    
+    <div class="spaceAround spaceMinusReserve">
+        
+            <form action="https://formspree.io/f/meolwldj" method="POST">
+                <div class="one bookTable">
+                    <div>
+                        <h1 class="headingThreeFonts">Book a table</h2>
+                    </div>
+
+                    <div class="reserve">
+                        <label>YOUR NAME</label>
+                    </div>
+
+                    <div class="reserve">
+                        <input type="text">
+                    </div>
+                    
+                    <div class="reserve">
+                        <label>YOUR TELEPHONE NUMBER</label>
+                    </div>
+
+                    <div class="reserve">
+                        <input type="text">
+                    </div>
+
+                    <div class="reserve">
+                        <label>YOUR EMAIL:</label>
+                    </div>
+
+                    <div class="reserve">
+                        <input type="email" name="email">
+                    </div>
+
+                    <div class="reserve">
+                        <label>PREFERABLE DATE & TIME</label>
+                    </div>
+
+                    <div class="reserve">
+                        <input type="text">
+                    </div>
+                    
+                    <div class="reserve">
+                        <label>NUMBER OF PERSONS</label>
+                    </div>
+
+                    <div class="reserve">
+                        <input type="text">
+                    </div>
+                    
+                    <div class="reserve">
+                        <label>YOUR MESSAGE: </label>
+                    </div>
+
+                    <div class="reserve">
+                        <textarea name="message"></textarea>
+                    </div>
+                    
+                    <div class="reserve">
+                        <button type="submit"class="click buttonMenu" id="animationFive">RESERVE</button>
+                    </div>
+            </div>
+            </form>
+        
+        <div class="one pictureMenuParent">
+            <img id="steakMenu" src="burger-black-bread-bun-with-fried-egg.jpg" width="600px" height="650px" alt="steakMenu">
+        </div>   
+    </div>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/TextPlugin.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

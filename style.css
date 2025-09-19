@@ -1,0 +1,184 @@
+    /*.contacts {
+    display: flex;
+    justify-content: flex-end;
+}*/
+body {
+    background-color: #282828;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+h1, h2 {
+    font-family: "Italiana", sans-serif;
+    color: #ffffff;
+}
+.headingOneFonts {
+    font-size: 68px;
+}
+.headingTwoFonts {
+    font-size: 15px;
+    margin-top: -35px;
+    letter-spacing: 1px;
+}
+.headingThreeFonts {
+    font-size: 48px;
+}
+#animationFour {
+    font-size: 68px;
+    font-family: "Italiana", sans-serif;
+    color: #ffffff;
+}
+.gold {
+    color: #C69666;
+}
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    position: absolute;
+    top: 20px;
+    left: 650px;
+}
+.pictureAsBackground {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+.spaceBetween {
+    display: flex;
+    justify-content: space-between;
+}
+.spaceAround {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.columns{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bookTable {
+    display: flex;
+    height: 90vh;
+}
+.reserve {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+label {
+    color: white;
+    font-family: "Lora", serif;
+    font-size: 12px;
+}
+input {
+    padding: 5px;
+    width: 100%;
+}
+textarea {
+    width: 100%;
+}
+.spaceMinus {
+    margin-bottom: -25px;
+    margin-top: -25px;
+}
+.spaceMinusReserve {
+    margin-top: -5px;
+    margin-bottom: -20px;
+}
+.parTwo {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    margin-bottom: -10px;
+    margin-left: 50px;
+    margin-right: 15px;
+}
+#steakrosemary {
+    opacity: 30%;
+    object-fit: cover;
+}
+.topBar, .contacts {
+    display: flex;
+    gap: 5px;
+}
+.left {
+    padding-right: 10px;
+}
+p {
+    color: white;
+    font-family: "Lora", serif;
+    font-size: 12px;
+}
+.par {
+    font-size: 15px;
+}
+.icon {
+    width: 15px;
+    height: 15px;
+    margin-top: 12px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+}
+#buttonReserve {
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+.buttonMenu {
+    margin: 30px
+}
+.click {
+    padding: 10px 30px 10px 30px;
+    border: 1px solid #C69666;
+    color: #C69666;
+    background-color: black;
+    font-family: "Italiana", sans-serif;
+    font-size: 22px;
+    position: relative;
+    z-index: 10;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.click:hover {
+    color: black;
+    background-color: #C69666;
+    font-size: 26px;
+    font-weight: bold;
+}
+hr {
+    border: none;          
+    border-top: 0.1px solid #C69666; 
+    width: 100%;                  
+    margin: 10px 0;  
+}
+.pictureMenuParent {
+    position: relative;
+    display: flex;              
+}
+.textMenuChild {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 2%;
+    z-index: 10;  
+}
+#steakMenu {
+    opacity: 70%;
+    object-fit: cover;
+}
