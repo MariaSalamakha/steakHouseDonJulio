@@ -1,5 +1,5 @@
-gsap.from ("#DonJulio", {y:-500, duration: 3, delay: 1, opacity: 0} )
-gsap.from ("#steakHouseRestaurant", {y:500, duration: 3, delay: 3, opacity: 0} )
+gsap.from ("#DonJulio", {y:-20, duration: 3, delay: 1, opacity: 0} )
+gsap.from ("#steakHouseRestaurant", {y:20, duration: 3, delay: 3, opacity: 0} )
 
 gsap.from("#animationThree", {x:150, delay:1, duration:3, ease: "bounce"})
 
